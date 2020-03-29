@@ -32,31 +32,37 @@ The following aspects should be standardized first:
   - number of objects
   - number of hands
   - number of jugglers
-  - period
+  - period (if repeatable)
   - description in some high-level language
   - comments
 - logical throws as in what we consider a throw in causal diagrams:
   - throw time
   - time until next throw
   - source and destination hand
-- physical throws for animation
-  - throw time
-  - catch time
-  - object reference
-  - properties like:
-   - type of throw
-   - number of spins
-   - spin direction, axis
-   - throw/catch positions
- - manipulation/movement during dwell
- - mapping hand reference to juggler and side
- - juggler positions and movements
- - hand movements while not carrying an object
- - movements of other body parts
- - length of a time unit in seconds
- - object details like:
-   - type of prop
-   - color / texture
+- optional data like:
+  - timing data:
+    - hold time/dwell time
+      ( or throw time / catch time)
+    - length of a time unit in seconds
+  - juggler positions and movements
+    - throw/catch coordinates
+    - hand positions at throw/catch
+    - movements of other body parts
+    - hand movements while not carrying an object (dwell time)
+    - body part that catches (hand, foot, head, two hands (diabolo wire?))
+
+  - physical throws for animation
+    - properties like:
+      - type of throw
+      - number of spins
+      - spin direction, axis
+      - manipulation/movement while holding the object
+     - object reference ??
+     - mapping hand reference to juggler and side ???
+
+    - object details like:
+      - type of prop
+      - color / texture
 
 
  ## Decisions
@@ -75,9 +81,10 @@ The following aspects should be standardized first:
  - repetition might be considered a feature. Instead of seeing all patterns as endlessly repeating,
  we could mark repetitions explicitly and even have the possibility of repeating subsequences.
    This could be more appropriate to describe things like a full juggling act, or demonstrating how to get in and out of a siteswap. 
- - we might want to have some kind of object relabeling mechanism to shorten the period / file length
- as it might take quite long until all objects are in their starting positions again at the start of an iteration
- - it should be possible to represent moving take-out patterns, they seem to be very popular nowadays
+ - Object relabeling at the end of a period:
+   If a (part of a) pattern can be repeated, it should be clear from end positions of the objects which role they will play when the pattern is repeated. This requires an adequate description of start positions (objects in hands, in the air etc).
+ As it might take quite long until all objects are in their starting positions again at the start of an iteration.
+ - The data about juggler position and movement should allow to represent moving take-out patterns, they seem to be very popular nowadays
 
 
  ## Thanks
