@@ -31,7 +31,7 @@ The following aspects should be standardized first:
   - number of objects
   - number of hands
   - number of jugglers
-  - period
+  - period (if repeatable)
   - description in some high-level language
   - comments
 - logical throws as in what we consider a throw in causal diagrams:
