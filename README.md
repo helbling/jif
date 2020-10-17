@@ -21,8 +21,7 @@ This allows for a software pipeline of components that define a juggling pattern
 To speedup standardization the focus should stay on the most important applications. Other applications can follow, when there is high interest. The bug tracker of this repository should be
  used to discuss extensions of the standard.
 
-JIF is specifically designed to help computer programs to understand details of juggling patterns. It should be easy to write programs that generate, enrich or modify a pattern or display diagrams and 
-animations of a given one. In contrast to different high-level descriptions like siteswap (and its extensions) it should not be as short as possible and it is not thought to be written manually. Nevertheless it should be possible to readable and understandable by humans.
+JIF is specifically designed to help computer programs to understand details of juggling patterns. It should be easy to write programs that generate, enrich or modify a pattern or display diagrams and animations of a given one. In contrast to different high-level descriptions like siteswap (and its extensions) it should not be as short as possible and it is not thought to be written manually. Nevertheless it should be readable and understandable by humans.
 
 ## First steps
 
