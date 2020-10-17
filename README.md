@@ -73,10 +73,18 @@ The following aspects should be standardized first:
    which might as well be a foot, a floor, wall, table and so on
  - repetition might be considered a feature. Instead of seeing all patterns as endlessly repeating,
  we could mark repetitions explicitly and even have the possibility of repeating subsequences.
-   This could be more appropriate to describe things like a full juggling act, or demonstrating how to get in and out of a siteswap. 
+   This could be more appropriate to describe things like a full juggling act, or demonstrating how to get in and out of a siteswap.
  - we might want to have some kind of object relabeling mechanism to shorten the period / file length
  as it might take quite long until all objects are in their starting positions again at the start of an iteration
  - it should be possible to represent moving take-out patterns, they seem to be very popular nowadays
+
+## Existing notations that might be of use
+
+- JML (JugglingLab): https://jugglinglab.org/html/jml.html, https://github.com/jkboyce/jugglinglab/tree/master/source/jugglinglab/jml
+- Gunswap (much higher level, not sure if there's an internal one too): http://www.gunswap.co/about/syntax
+- https://m.box.com/shared_item/https%3A%2F%2Fapp.box.com%2Fs%2F2azk2z9hjtlryvmiclhp
+- https://juggle.fandom.com/wiki/Rotation_notation
+- https://juggle.fandom.com/wiki/Beatmap (high level)
 
 
  ## Thanks
