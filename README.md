@@ -38,6 +38,7 @@ The following aspects should be standardized first:
   - throw time
   - time until next throw
   - source and destination hand
+  - label
 - physical throws for animation
   - throw time
   - catch time
