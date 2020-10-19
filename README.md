@@ -87,8 +87,12 @@ The following aspects should be standardized first:
 - https://juggle.fandom.com/wiki/Rotation_notation
 - https://juggle.fandom.com/wiki/Beatmap (high level)
 
+## Mailing list
 
- ## Thanks
+There is a google groups mailing list to discuss development here:
+https://groups.google.com/group/juggling-interchange-format
+
+## Thanks
 
  I would like to thank everyone who helped me with this project. Especially:
  - Wolfgang Westerboer, Author of the famous juggling animation programm JoePass
